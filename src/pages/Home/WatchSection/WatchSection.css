@@ -1,0 +1,106 @@
+.watch-section {
+    background-color: black;
+    border-bottom: 8px solid #222;
+}
+
+/* first section */
+
+/* for small screen */
+@media (min-width: 768px) and (max-width: 991px) {
+    .watch-section .first-section {
+        padding: 0;
+    }
+    
+    .watch-section .first-section h1 {
+        font-size: 50px;
+    }
+    
+    .watch-section .first-section p {
+        font-size: 26px;
+    }
+}
+
+/* for medium screen */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .watch-section .first-section {
+        padding: 95px 13px;
+    }
+    
+    .watch-section .first-section h1 {
+        font-size: 50px;
+    }
+    
+    .watch-section .first-section p {
+        font-size: 26px;
+    }
+}
+
+/* for large screen */
+@media (min-width: 1200px) {
+    .watch-section .first-section {
+        padding: 125px 90px;
+    }
+    
+    .watch-section .first-section h1 {
+        font-size: 50px;
+    }
+    
+    .watch-section .first-section p {
+        font-size: 26px;
+    }
+}
+
+/* first section */
+
+/* second section */
+.watch-section .second-section {
+    position: relative;
+    z-index: 10;
+}
+
+.watch-section .second-section img {
+    transform: scaleX(0.9);
+}
+
+.watch-section .second-section .video {
+    position: absolute;
+    z-index: -1;
+}
+
+/* for mobile $ tablets */
+@media (max-width: 767px) {
+    .watch-section .second-section .video {
+        top: 3.459vh;
+        left: 20.638vw;
+        width: 42.428vw;
+    }
+}
+
+/* for small screen */
+@media (min-width: 768px) and (max-width: 991px) {
+    .watch-section .second-section .video {
+        top: 5.459vh;
+        left: 21.638vw;
+        width: 48.428vw;
+    }
+}
+
+/* for medium screen */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .watch-section .second-section .video {
+        top: 2.459vh;
+        left: 11.2vw;
+        width: 23.428vw;
+    }
+}
+
+/* for large screen */
+@media (min-width: 1200px) {
+    .watch-section .second-section .video {
+        top: 8.459vh;
+        left: 10.8vw;
+        width: 25.428vw;
+    }
+}
+
+/* second section */

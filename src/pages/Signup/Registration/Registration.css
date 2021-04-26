@@ -1,0 +1,63 @@
+.registration {
+    overflow: hidden;
+}
+
+.registration .logo {
+    fill:#e50914;
+}
+
+.registration .logo svg {
+    width: 170px;
+}
+
+.registration .settings {
+    width: 350px;
+    margin-top: 150px;
+}
+
+.registration .settings h1 {
+    font-size: 23px;
+}
+
+.registration .button {
+    height: 70px;
+}
+
+.registration .button button {
+    font-size: 24px;
+}
+
+/* for X-Small devices */
+@media (max-width: 575.98px) {
+    .registration footer {
+        margin-top: 150px;
+    }
+}
+
+/* for Small devices */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .registration footer {
+        margin-top: 150px;
+    }
+}
+
+/* for Medium devices */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .registration footer {
+        margin-top: 261px;
+    }
+}
+
+/* for Large devices */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .registration footer {
+        margin-top: 627px;
+    }
+}
+
+/* for X-Large devices */
+@media (min-width: 1200px) {
+    .registration footer {
+        margin-top: 150px;
+    }
+}
